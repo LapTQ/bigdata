@@ -7,11 +7,11 @@ The MongoDB is divided into a two components *server* and *client*.
 
 Here, `mongod` is the server component. You start it, it runs, that’s it.
 
-> By definition we also call it the *primary daemon process* for the MongoDB database.
+> By definition, we also call it the *primary daemon process* for the MongoDB database.
 
 Whereas `mongosh` is a command line client. You start it, you connect to a server, you enter commands, you exit out of it. Since the beginning, `mongo` is the MongoDB interactive shell, but as MongoDB grows, they needed to design a new MongoDB Shell, called `mongosh`. You have to run `mongod` first, otherwise you have no database to interact with.
 
-As for `mongos`, see [MongoDB Cluster]("MongoDB Clusters.md")
+As for `mongos`, see [MongoDB Cluster](MongoDB-Clusters.md)
 
 ## Further readings
 
